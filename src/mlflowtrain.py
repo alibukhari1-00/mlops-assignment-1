@@ -78,5 +78,5 @@ df_results.to_csv(csv_path, index=False)
 
 mlflow.log_artifact(str(csv_path))
 
-print("✅ MLflow training, logging, and artifacts complete!")
+print("MLflow training, logging, and artifacts complete!")
 print(df_results)
